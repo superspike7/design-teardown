@@ -234,3 +234,79 @@ table {
   background: #666;
   height: 15px;
 }
+
+
+.cards {
+  width: 1120px;
+  height: 693px;
+  margin: 30px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.cards .card {
+  background: #aaa;
+  border-radius: 10px;
+}
+
+.cards .card .head {
+  width: 275px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.cards .card .head p {
+  background: #777;
+  height: 14px;
+  width: 60%;
+}
+
+.cards .card .main-header {
+  width: 275px;
+  margin: 10px auto;
+  height: 93px; 
+}
+
+.cards .card .main-header h1 {
+  height: 45px;
+  background: #333;
+  margin: 5px 0;
+  width: 95%;
+}
+
+.cards .card .desc {
+  width: 275px;
+  margin: 5px auto;
+  margin-top: 50px;
+}
+
+.cards .card .desc p {
+  width: 100%;
+  background: #555;
+  height: 28px;
+  margin: 8px 0;
+}
+
+.cards .card .cta {
+  width: 275px;
+  margin: 30px auto;
+  background: #333;
+  height: 90px;
+  border-radius: 10px;
+}
+
+.cards .more-link {
+  height: 49px;
+  width: 170px;
+  margin: 80px auto;
+  border-bottom: rgb(190, 13, 13) solid 5px;
+  grid-column: 2 / span 1;
+}
+
+
+.cards .more-link h2 {
+  width: 139px;
+  height: 18px;
+  margin: 0 auto;
+  background: #555;
+}
