@@ -667,7 +667,7 @@ table {
   height: 64px;
   border-radius: 10px;
   background: #333;
-  margin: 70px auto 50px;
+  margin: 50px auto 50px;
 }
 
 .big-banner .container .circle {
@@ -677,4 +677,219 @@ table {
   border: 50px solid #bbb;
   background: #666;
   margin: 90px auto 0;
+}
+
+.writers {
+  width: 1160px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  margin: 0 auto;
+  grid-gap: 15px;
+  margin-top: 40px;
+}
+
+.writers .writer {
+  background: #ddd;
+}
+
+.writers .featured-writer {
+  grid-column: 1 / -1;
+  height: 276px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  background: #ddd;
+}
+
+.writers .writer {
+  height: 298px;
+}
+
+.writers .featured-writer .pic {
+  width: 256px;
+  position: relative;
+  margin-right: 20px;
+}
+
+.writers .featured-writer .pic .square {
+  width: 220px;
+  height: 220px;
+  border: 8px solid #888;
+  background: #333;
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  transform: rotate(-18deg);
+  border-radius: 15px;
+  transition: 0.3s;
+}
+
+.writers .featured-writer .pic .square:hover {
+  transform: none;
+  bottom: 3px;
+}
+
+.writers .featured-writer .container .header {
+  height: 37px;
+}
+
+.writers .featured-writer .container .header h3 {
+  width: 30%;
+  height: 80%;
+  background: #333;
+}
+
+.writers .featured-writer .container .desc {
+  height: 165px;
+  margin: 46px 0 0;
+}
+
+.writers .featured-writer .container .desc p {
+  height: 15%;
+  width: 95%;
+  margin: 10px 0;
+  background: #555;
+}
+
+.writers .writer {
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+.writers .writer .pic {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  margin-right: 20px;
+}
+
+.writers .writer .pic .square {
+  position: absolute;
+  bottom: 0;
+  right: 5px;
+  height: 80px;
+  width: 80px;
+  background: #555;
+  border: 5px solid #333;
+  transform: rotate(-18deg);
+  border-radius: 15px;
+  transition: 0.3s;
+}
+
+.writers .writer .pic .square:hover {
+  transform: none;
+  bottom: 3px;
+}
+
+.writer .container .name {
+  height: 20px;
+}
+
+.writer .container .name h3{
+  height: 100%;
+  width: 40%;
+  background: #555;
+}
+
+.writer .container .header {
+  margin: 30px 0;
+  width: 80%;
+  height: 70px;
+}
+
+.writer .container .header h1 {
+  height: 45%;
+  margin: 5px 0;
+  background: #333;
+}
+
+.writer .container .desc {
+  height: 158px;
+}
+
+.writer .container .desc p {
+  background: #555;
+  width: 90%;
+  height: 15%;
+  margin: 5px 0;
+}
+
+.writers .more-link {
+  grid-column: 1 / -1;
+  margin: 30px auto;
+  width: 217px;
+  padding: 19px 15px 8px;
+  border-bottom: 4px solid #333;
+}
+
+.writers .more-link p {
+  height: 18px;
+  background: #555;
+}
+
+
+.footer {
+  margin-top: 50px;
+  width: 100%;
+  background: #ddd;
+  padding: 80px 0;
+  margin: 0 auto;
+}
+
+.footer .header {
+  width: 1130px;
+  height: 31px;
+  margin: 0 auto 30px;
+}
+
+.footer .header h1 {
+  width: 40%;
+  height: 100%;
+  background: #555;
+  margin: 0 auto;
+}
+
+.footer .links {
+  display: flex;
+  width: 1130px;
+  margin: 0 auto 50px;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
+.footer .links .link {
+  padding: 10px 0;
+  height: 30px;
+  width: 130px;
+  background: #555;
+  margin: 5px;
+}
+
+.footer .message {
+  height: 107px;
+  width: 520px;
+  margin: 0 auto;
+}
+
+.footer .message p {
+  height: 20px;
+  margin: 3px 0;
+  background: #777;
+}
+
+.footer .bottom-links {
+  width: 483px;
+  margin: 0 auto;
+  height: 85px;
+  padding: 16px 0;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
+.footer .bottom-links .link {
+  height: 20px;
+  width: 80px;
+  background: #777;
+  margin: 5px;
 }
